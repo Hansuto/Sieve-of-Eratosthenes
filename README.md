@@ -1,5 +1,5 @@
 # Sieve-of-Eratosthenes
-Implementing the Sieve of Eratosthenes using concurrent programming in Go
+Implementing the Sieve of Eratosthenes to determine all prime numbers less than ***n*** using concurrent programming practices in Go.
 
     go run soe.go <n> 
    *where 100 < n < inf*

@@ -1,6 +1,9 @@
 # Sieve-of-Eratosthenes
 Implementing the Sieve of Eratosthenes using concurrent programming in Go
 
+    go run soe.go <n> 
+   *where 100 < n < inf*
+
 ## Explanation
 I make an array of Boolean values 0 through n, all initialized to false. Starting with the
 number 2, I spawn a thread to flip each of its multiples to true. I repeat this
